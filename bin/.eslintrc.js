@@ -64,7 +64,7 @@ module.exports = {
     "import/no-deprecated": "error",
     "import/no-duplicates": "error",
     "import/no-dynamic-require": "off",
-    "import/no-extraneous-dependencies": "error",
+    "import/no-extraneous-dependencies": "warn",
     "import/no-mutable-exports": "error",
     "import/no-namespace": "error",
     "import/no-restricted-paths": "error",
