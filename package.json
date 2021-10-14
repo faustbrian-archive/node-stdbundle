@@ -1,0 +1,54 @@
+{
+  "name": "@faustbrian/node-stdbundle",
+  "version": "1.0.0",
+  "description": "Bundling and testing for Node.js packages. Powered by parcel and uvu.",
+  "homepage": "https://github.com/faustbrian/node-stdbundle",
+  "bugs": {
+    "url": "https://github.com/faustbrian/node-stdbundle/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faustbrian/node-stdbundle.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "Brian Faust",
+    "email": "brian@faust.mx",
+    "url": "https://faust.mx"
+  },
+  "bin": {
+    "stdlint": "./bin/stdlint.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "@parcel/packager-ts": "^2.0.0",
+    "@parcel/transformer-typescript-types": "^2.0.0",
+    "@sindresorhus/tsconfig": "^2.0.0",
+    "@types/node": "^16.10.9",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-nibble": "^7.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "eslint-plugin-testing-library": "^4.12.4",
+    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-unused-imports": "^1.1.5",
+    "parcel": "^2.0.0",
+    "tsm": "^2.1.2",
+    "typescript": "^4.4.4",
+    "uvu": "^0.5.2"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
